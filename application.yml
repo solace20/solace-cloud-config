@@ -1,21 +1,2 @@
 solace:
-  foo: foolish
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8000/eureka/
-server:
-  port: 8887
-spring:
-  application:
-    name: cloud-config-client
-
-  cloud:
-    config:
-      label: master
-      profile: dev
-      uri: http://localhost:8888
-
-      discovery:
-        enabled: true
-        service-id: cloud-config
+  foo: foolish——solace
