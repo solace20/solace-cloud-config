@@ -1,4 +1,5 @@
-foo: foolish
+solace:
+  foo: foolish
 eureka:
   client:
     serviceUrl:
